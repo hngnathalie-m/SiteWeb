@@ -7,14 +7,17 @@ body {
   
  
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #EFE2D6;
-    padding: 20px 60px;
-    position: relative;
-    z-index: 10;
-    height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFE2D6;
+  padding: 20px 60px;
+  height: 120px;
+  gap: 80px;  
+  }
+
+  .navbar .logo {
+    margin-bottom: -76px;
   }
   
   .nav-links {
@@ -35,16 +38,15 @@ body {
   }
   
   .logo {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 20;
+    position: relative;
+    transform: none;
+    margin-top: 76px; 
+    z-index: 10;
   }
   
   .logo img {
     height: 320px; 
-    position: relative;
+    display: block;
     top: -24px; 
   }
   
