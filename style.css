@@ -78,3 +78,60 @@ body {
     line-height: 1.5;
     font-size: 25px;
   }
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  background-color: #e8ded7; /* fond beige */
+  text-align: center;
+}
+
+.top-bar {
+  background-color: white;
+  padding: 15px 0;
+}
+
+.top-bar h1 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.image-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.art-img {
+  width: 350px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.caption {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.voir-plus {
+  margin-top: 40px;
+}
+
+.voir-plus a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+}
