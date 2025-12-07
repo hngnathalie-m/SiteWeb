@@ -1,1 +1,83 @@
+.top-bar {
+  background-color: white;
+  padding: 14px 0;
+  border-bottom: 1px solid #e6e0da;
+  text-align: center;
+}
 
+.top-bar h1 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    }
+    
+    .image-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    .art-img {
+    width: 350px;
+    height: auto;
+    border-radius: 2px;
+    }
+    
+    .caption {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 15px;
+    }
+    
+    .voir-plus {
+    margin-top: 40px;
+    margin-left: 47%;
+    }
+    
+    .voir-plus a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    }
+
+
+
+
+
+footer {
+  background-color: #BAA597;
+  padding: 40px 0 60px;
+  color: #000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 86%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  border-top: 1px solid transparent;
+}
+
+.contact, .social {
+  flex: 1;
+}
+
+.contact h3, .social h3 {
+  text-transform: uppercase;
+  font-weight: 600;
