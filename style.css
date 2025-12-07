@@ -135,3 +135,69 @@ body {
   border-bottom: 1px solid black;
   padding-bottom: 3px;
 }
+
+ body.mag {
+    background-color: #f2e8db;
+    font-family: serif;
+}
+
+/* Header */
+.top.mag {
+    background: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid #e2d6c6;
+}
+
+.top.mag h1 {
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+/* Main content */
+.container.mag {
+    padding: 60px 80px;
+}
+
+/* Images row */
+.upper.mag {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Images */
+.img-left.mag {
+    width: 330px;
+}
+
+.img-right.mag {
+    width: 420px;
+}
+
+/* Text section */
+.lower.mag {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left.mag,
+.right.mag {
+    font-style: italic;
+    font-size: 18px;
+}
+
+/* Voir plus */
+.more.mag {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.more.mag a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    font-size: 18px;
+}
