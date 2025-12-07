@@ -284,7 +284,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-  /* navbar becomes compact, keep logo centered */
+
   .navbar {
     justify-content: space-between;
     padding: 14px 18px;
@@ -292,7 +292,7 @@ footer {
     height: auto;
   }
   .nav-links { gap: 14px; font-size: 15px; }
-  .left-links, .right-links { display: none; } /* hide text links to resemble compact mobile nav */
+  .left-links, .right-links { display: none; } 
   .logo { margin: 0 auto; }
   .logo img { height: 90px; }
 
@@ -314,7 +314,7 @@ footer {
   .divider { display: none; }
 }
 
-/* very narrow mobile similar to your second image (approx 320px wide) */
+
 @media (max-width: 420px) {
   .logo img { height: 78px; margin-top: 6px; }
   .art-img { width: 260px; }
