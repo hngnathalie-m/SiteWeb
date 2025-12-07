@@ -233,3 +233,93 @@ footer {
 .contact h3, .social h3 {
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: "Playfair Display", serif;
+}
+
+.contact ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.contact li {
+  margin-bottom: 8px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.divider {
+  width: 1px;
+  min-height: 100px;
+  background-color: rgba(0,0,0,0.1);
+  margin: 0 20px;
+}
+
+.social a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social img {
+  width: 20px;
+  height: 20px;
+}
+
+
+@media (max-width: 1024px) {
+  .navbar { padding: 18px 40px; gap: 40px; height: 110px; }
+  .logo img { height: 110px; }
+  .nav-links { gap: 28px; font-size: 18px; }
+  .about h2 { font-size: 32px; }
+  .about p { font-size: 17px; max-width: 760px; }
+  .container.mag { padding: 30px 40px; }
+}
+
+@media (max-width: 768px) {
+  /* navbar becomes compact, keep logo centered */
+  .navbar {
+    justify-content: space-between;
+    padding: 14px 18px;
+    gap: 10px;
+    height: auto;
+  }
+  .nav-links { gap: 14px; font-size: 15px; }
+  .left-links, .right-links { display: none; } /* hide text links to resemble compact mobile nav */
+  .logo { margin: 0 auto; }
+  .logo img { height: 90px; }
+
+  .about { padding: 36px 18px; }
+  .about h2 { font-size: 26px; margin-bottom: 18px; }
+  .about p { font-size: 15px; max-width: 520px; }
+
+  .image-row { gap: 20px; margin: 18px 8px; }
+  .image-block { width: 100%; max-width: 420px; margin: 0 auto; }
+  .art-img { width: 300px; }
+
+  .container.mag { padding: 28px 24px; }
+  .upper.mag { gap: 20px; }
+  .img-left.mag, .img-right.mag { width: 100%; max-width: 420px; margin: 0 auto; }
+  .lower.mag { flex-direction: column; align-items: center; text-align: center; gap: 12px; }
+  .left.mag, .right.mag { width: 100%; }
+
+  .footer-container { flex-direction: column; gap: 20px; align-items: center; text-align: center; }
+  .divider { display: none; }
+}
+
+/* very narrow mobile similar to your second image (approx 320px wide) */
+@media (max-width: 420px) {
+  .logo img { height: 78px; margin-top: 6px; }
+  .art-img { width: 260px; }
+  .caption { font-size: 14px; }
+  .about p { font-size: 14px; line-height: 1.5; }
+  .top-bar h1, .top.mag h1 { font-size: 16px; }
+  .more.mag a, .voir-plus a { font-size: 15px; }
+}
