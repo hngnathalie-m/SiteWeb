@@ -1,3 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  background-color: #EFE2D6;
+  color: #000;
+  
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFE2D6;
+  padding: 22px px;
+  height: 120px;
+  gap: 80px;
+  position: relative;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+}
+
+
+.logo {
+  position: relative;
+  margin-top: 110px;
+  
+}
+
+.logo img {
+  height: 100px; 
+  height: 300px;
+}
+
+
+.hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.about {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #EFE2D6;
+  color: #000;
+}
+
+.about h2 {
+  font-size: 36px;
+  margin: 0 0 30px;
+  font-weight: 400;
+}
+
+.about p {
+  font-family: "Playfair Display", serif;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-size: 18px;
+  color: #3b332f;
+}
+
 .top-bar {
   background-color: white;
   padding: 14px 0;
@@ -53,7 +133,79 @@
     padding-bottom: 3px;
     }
 
+body.mag, .mag { background-color: #f2e8db; }
 
+.top.mag, .mag .top {
+  background: white;
+  padding: 20px;
+  text-align: center ;
+  border-bottom: 1px solid #e2d6c6;
+  margin-top: 40px;
+}
+
+.top.mag h1, .mag .top h1 {
+  margin: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+
+.container.mag, .mag .container {
+  padding: 40px 80px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.upper.mag, .mag .upper {
+  display: flex;
+  justify-content: space-evenly ;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.img-left.mag, .mag .img-left {
+  width: 320px;
+  max-width: 100%;
+  display: block;
+}
+
+.img-right.mag, .mag .img-right {
+  width: 320px;
+  max-width: 100%;
+  display: block;
+}
+
+.lower.mag, .mag .lower {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.left.mag, .mag .left,
+.right.mag, .mag .right {
+  font-style: italic;
+  font-size: 16px;
+  color: #201a18;
+  width: calc(50% - 10px);
+}
+
+.more.mag, .mag .more {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.more.mag a, .mag .more a {
+  color: black;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  padding-bottom: 3px;
+  font-size: 16px;
+}
 
 
 
