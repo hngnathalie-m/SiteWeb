@@ -45,6 +45,7 @@ body {
 
 .logo img {
   height: 100px; 
+  display: block;
   height: 300px;
 }
 
